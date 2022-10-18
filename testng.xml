@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="SwaggerTest" parallel="tests" thread-count="2">
+
+	<test name="UserDetails" preserve-order="true">
+		<classes>
+			<class name="com.src.test.java.testClasses.UserDetailsTest">
+			</class>
+		</classes>
+	</test>
+	<test name="PetStore" preserve-order="true">
+		<classes>
+			<class name="com.src.test.java.testClasses.PetStoreTest">
+			</class>
+		</classes>
+	</test>
+</suite>
